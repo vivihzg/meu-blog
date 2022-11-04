@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700&subset=latin-ext');
-@import url('https://fonts.googleapis.com/css2? family= Pobre+História & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 :root {
     --bg-color: #fafafa;
     --bg-hover-color: #ececec;
@@ -17,7 +17,7 @@
 }
 
 body{
-  font-family:'Pobre história', cursive;
+  font-family:'Quicksand', sans-serif;
   font-weight: normal;
   background: var(--body-bg);
   color: var(--primary-font-color);
@@ -57,7 +57,7 @@ body{
   margin-bottom: 5px;
   background:var(--bg-color);
   border: 1px dashed var(--border-color);
-  text-align: left;
+  font-family: 'Catamaran', cursive;
 }
 
 .post-list:hover{
@@ -81,7 +81,7 @@ body{
 }
 
 .post-header .post-share{font-weight: 600; color: var(--primary-font-color); display: flex; justify-content: flex-end; align-items: center;}
-.post-header .post-date{font-weight: 600;}
+.post-header .post-date{font-family: 'Catamaran', cursive;}
 .post-header .post-share a{display: flex;}
 
 .tags-container{
