@@ -22,7 +22,7 @@ author:
 
 
 # URL settings
-url: baseurl="/http://vivihzg.github.io" # Domain Name of host. [username].github.io for github pages
+url: https://vivihzg.github.io" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
 
 markdown: kramdown
